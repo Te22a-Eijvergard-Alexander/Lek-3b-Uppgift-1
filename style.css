@@ -1,14 +1,54 @@
-h1{
-    text-align: center;
-}
 
 .låda{
-    border: solid red;
-    max-height: 80px;
+     border: solid red 4px;
+     display:flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     height: 80px;
+     margin-left: 1%;
+     margin-right: 1%;
+     align-items: center;
 
 }
 .Rubriklåda1{
     background-color: cyan;
     border: solid; 
     width: 200px;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#Sida2{
+    background-color: pink;
+    border: solid black 4px;
+    padding: 3%;
+    margin-left: 0.4%;
+    width: 50%;
+    text-align: center;
+}
+
+#Sida1{
+    background-color: yellow;
+    border:solid black 4px;
+    padding: 3%;
+    margin-right: 0.4%;
+    width: 50%;
+    text-align: center;
+}
+
+#Text{
+    border: solid yellow 4px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#mitten{
+    border: solid orange 4px;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: row;
 }
